@@ -9,28 +9,23 @@ import Footer from "./footer";
 //create your first component
 const Home = () => {
 	return (
+			<>
+			<NavBar />
+		<div className="container-fluid d-flex flex-column align-items-center  w-100">
 
-		<>
-		<NavBar/>
-		<Jumbotron />
+			<Jumbotron />
+			<div className="container-fluid d-flex gap-4 row m-2 justify-content-center">
 
-		<div className="row mx-5">
-		    <div className="col-12 col-lg-3 col-md-6 col-sm-12 mb-4">
-		       <Card/>
+			<Card />
+			<Card />
+			<Card />
+			<Card />
+			<Footer/>
 			</div>
-			<div className="col-12 col-lg-3 col-md-6 col-sm-12 mb-4">
-				<Card/>
-			</div>
-			<div className="col-12 col-lg-3 col-md-6 col-sm-12 mb-4">
-				<Card/>
-			</div>
-			<div className="col-12 col-lg-3 col-md-6 col-sm-12 mb-4">
-				<Card/>
-			</div>
+
 		</div>
-        <Footer/>
-		</>		
-	);
+		</>
+	)
 };
 
 export default Home;

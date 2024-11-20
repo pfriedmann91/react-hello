@@ -2,9 +2,11 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="bg-dark text-center text-lg-start text-white w-100 mt-5">
+        <div className="container-fluid">
+        <footer className="bg-dark text-center text-lg-start text-white fixed-bottom">
             <div className="text-center p-3">Copyright © Your Website 2024</div>
         </footer>
+        </div>
     );
 }
 
