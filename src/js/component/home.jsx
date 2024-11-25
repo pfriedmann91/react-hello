@@ -11,19 +11,16 @@ const Home = () => {
 	return (
 			<>
 			<NavBar />
-		<div className="container-fluid d-flex flex-column align-items-center  w-100">
-
 			<Jumbotron />
-			<div className="container-fluid d-flex gap-4 row m-2 justify-content-center">
 
+			<div className="container-fluid d-flex gap-4 row m-2 justify-content-center pb-4">
 			<Card />
 			<Card />
 			<Card />
 			<Card />
-			<Footer/>
 			</div>
-
-		</div>
+			<Footer/>
+	
 		</>
 	)
 };
